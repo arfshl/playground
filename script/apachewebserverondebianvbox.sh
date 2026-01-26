@@ -24,8 +24,8 @@ EOF
 #4
 cp /etc/bind/named.conf-default.zones /etc/bind/named.conf-default.zones.bak
 #5
-sed -i 's|localhost|rika.net|'  /etc/bind/named.conf-default.zones 
-sed -i 's|db.local|db.rika|'  /etc/bind/named.conf-default.zones 
-sed -i 's|127|10.168.192|'  /etc/bind/named.conf-default.zones 
-sed -i 's|db.127|db.10|'  /etc/bind/named.conf-default.zones 
+sed -i 's|localhost|rika.net|g'  /etc/bind/named.conf-default.zones 
+sed -i 's|db.local|db.rika|g'  /etc/bind/named.conf-default.zones 
+sed -i 's|127|10.168.192|g'  /etc/bind/named.conf-default.zones 
+sed -i 's|db.127|db.10|g'  /etc/bind/named.conf-default.zones 
 # 6
