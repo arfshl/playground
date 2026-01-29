@@ -1,6 +1,6 @@
 #!/bin/sh
 # Run as root, ubuntu
-# Create the vm, with 20gb of storage, 3gb of ram
+# Create the vm, with 20gb of storage, 3gb of ram, and 2 core of vCPU as bare minimum
 # attach the iso images
 # boot up the vm
 # proceed with installation, use guided partitions and use entire disk
