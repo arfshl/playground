@@ -28,7 +28,7 @@ apt install apache2 bind9 dnsutils nano sudo resolvconf -y
 #     routes:
 #        - to: default
 #          via: 192.168.10.1 (this is your gateway)
-#      nameservers:
+#     nameservers:
 #        addresses: 
 #        - 192.168.10.40 (this is your local dns)
 # and we will apply all of this on a file named 'apache2-test.yaml'
